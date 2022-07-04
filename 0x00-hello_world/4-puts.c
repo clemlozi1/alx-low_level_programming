@@ -1,15 +1,15 @@
 #include <stdio.h>
-/*
-*main - Prints quote
-*Return: zero on success
+
+/**
+* main - Print a string using put
+*
+* Return: "Programming is like building a multilingual puzzle
+*
 */
 
 int main(void)
-
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }

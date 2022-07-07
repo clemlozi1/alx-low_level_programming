@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign - Entry point to receive chars
+ * print_sign - determin sign of int
  *
- * @n: Receive the character
+ * @n: number to check for sign
  *
- * Description: Prints the sign of a number.
- *
- * Return: 0
+ * Return: 1 if positive, 0 if 0, and -1 if negative
  *
 */
 
@@ -15,18 +13,18 @@ int print_sign(int n)
 
 {
 	if (n > 0)
-		{
-			_putchar(43);
-			return (1);
-		}
+	{
+	_putchar('+');
+	return (1);
+	}
 		else if (n == 0)
 		{
-		_putchar(48);
+		_putchar('0');
 		return (0);
 		}
-	else
+		else
 		{
-		_putchar(45);
+		_putchar('-');
 		return (-1);
 		}
 }

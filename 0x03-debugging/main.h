@@ -1,12 +1,12 @@
-#ifndef HOLBERTON_H
+#ifndef main_H
 
-#define HOLBERTON_H
+#define main_H
 
 #include <stdio.h>
 
 void positive_or_negative(int i);
 
-#endif /* HOLBERTON_H */
+#endif /* main_H */
 
 int largest_number(int a, int b, int c);
 
